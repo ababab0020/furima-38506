@@ -7,7 +7,7 @@
                 <mxCell id="57" value="address" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
                     <mxGeometry x="40" y="-116" width="160" height="230" as="geometry"/>
                 </mxCell>
-                <mxCell id="58" value="phone_number&#10;zipcode&#10;telephone&#10;address1&#10;address2&#10;user&#10;prefecture&#10;city&#10;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="57">
+                <mxCell id="58" value="phone_number&#10;zipcode&#10;telephone&#10;address1&#10;address2&#10;user&#10;prefecture&#10;city&#10;order" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="57">
                     <mxGeometry y="26" width="160" height="204" as="geometry"/>
                 </mxCell>
                 <mxCell id="62" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;" edge="1" parent="1" target="63">
