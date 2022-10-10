@@ -22,7 +22,7 @@ class User < ApplicationRecord
          FIRST_NAME_KANA_REGEX = /\A[ァ-ヶー－]+\z/              .freeze
          validates_format_of :first_name_kana, with: FIRST_NAME_KANA_REGEX,   message: 'カタカナのみ設定できます' 
         
-         #has_many   :items    
+         has_many   :items    
          #has_many   :orders 
          
 end
