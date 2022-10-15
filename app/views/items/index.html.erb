@@ -157,6 +157,7 @@
       </li>
       <% end %>
 
+      <%#商品がなければダミー画像を表示%>
       <% if @items.blank? then %>
        <li class='list'>
         <%= link_to '#' do %>
