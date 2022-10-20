@@ -20,7 +20,7 @@ class Item < ApplicationRecord
 
   #　テーブル間のアソシエーション
   belongs_to :user
-  #has_one    :order
+  has_one    :order
 
    # active_storageとのアソシエーション
   has_one_attached :image
